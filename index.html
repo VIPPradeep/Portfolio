@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    
+<nav class="navbar">
+    <a href="#" class="logo" >Portfolio</a>
+    <ul>
+        <li class="active"><a href="#Home">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+</nav>
+    
+     <div class="bars-animation">
+        <div class="bar" style="--i:6;"></div>
+        <div class="bar" style="--i:5;"></div>
+        <div class="bar" style="--i:4;"></div>
+        <div class="bar" style="--i:3;"></div>
+        <div class="bar" style="--i:2;"></div>
+        <div class="bar" style="--i:1;"></div>
+
+     </div>
+
+<section class="home" id="Home">
+    <div class="home-info">
+        <h1>Pradeep V</h1>
+        <h2>I'm a 
+             <span style="--i:4;" data-text="Frontend Developer">Frontend Developer</span>
+             <span style="--i:3;" data-text="React Developer">React Developer</span>
+             <span style="--i:2;" data-text="UI/UX Designer">UI/UX Designer</span>
+             <span style="--i:1;" data-text="Java Developer">Java Developer</span>
+             
+        </h2>
+        <p>
+            I'm a passionate Frontend Developer with a knack for crafting clean, user-friendly interfaces. I specialize in building responsive websites and interactive web apps using React, Java, and modern design principles. Whether it's coding, designing, or <br>debugging — I love bringing ideas to life on the web.
+            </p>
+        <div class="btn-sci">
+            <a href="./Assests/resume.pdf" download class="btn">Download CV</a>
+            <div class="sci" >
+
+                <a href=""><i class='bx bxl-github'></i></a>
+                <a href=""><i class='bx bxl-linkedin'></i></a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="home-img">
+           <div class="img-box">
+                <div class="img-item">
+                    <img src="./Assests/Profile_1.jpg" alt="">
+                </div>
+         </div>
+     </div>
+
+</section>
+
+<!-- About Section -->
+<section id="About">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="./Assests/Profile_2.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+            <p>
+                Hey there! I'm a frontend-focused developer who enjoys turning ideas into interactive, user-friendly websites. I
+                specialize in building responsive interfaces using React and modern web technologies. From clean code to smooth
+                designs, I focus on creating great user experiences that not only look good but work well too.
+            </p>
+            
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>UI/UX</span><br>Designing WEb/App interfaces</li>
+                    <li><span>Web Development</span><br>web app Development</li>
+                    <li><span>REact Development</span><br>Bulding Web applications Using React</li>
+                </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2025 - current</span><br>Advance Web & UI/UX</li>
+                    <li><span>2021 - 2024</span><br>Bachelor of Computer Application</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>2025 - current</span><br>Zomato</li>
+                    <li><span>2021 - 2024</span><br>Bachelor of Computer Application</li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Services Section  -->
+
+<section id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <img src="./Assests/code.svg">
+                <h2>Web Development</h2>
+                <p>I build responsive, high-performance websites that not only look great but also provide a seamless user experience. From personal blogs to business sites, I deliver clean and efficient code tailored to your goals.</p>
+           <a href="#contact">Learn more</a>
+            </div>
+            <div>
+                <img src="./Assests/react.svg" >
+                <h2>React Development</h2>
+                <p>I create fast, dynamic web apps using React. With reusable components and efficient state management, I ensure your applications are scalable, interactive, and built for modern performance.</p>
+           <a href="#contact">Learn more</a>
+            </div>
+            <div>
+                <img src="./Assests/crop.svg" >
+                <h2>UI/UX Design</h2>
+                <p>I design intuitive and engaging user interfaces that focus on user needs and business goals. My process blends creativity with usability to create visually pleasing designs that deliver smooth user experiences.</p>
+           <a href="#contact">Learn more</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work"> 
+                <img src="../Meesho/Assets/banner1.png">
+                <div class="layer">
+                    <h3>App1</h3>
+                    <p>This is the wonderful and usefull app you have ever seen
+                        and also it also responsible to any screen.
+                    </p>
+                    <a href=""><img src="./Assests/externalLink.svg"></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="../Meesho/Assets/banner1.png">
+                <div class="layer">
+                    <h3>App1</h3>
+                    <p>This is the wonderful and usefull app you have ever seen
+                        and also it also responsible to any screen.
+                    </p>
+                    <a href=""><img src="./Assests/externalLink.svg"></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="../Meesho/Assets/banner1.png">
+                <div class="layer">
+                    <h3>App1</h3>
+                    <p>This is the wonderful and usefull app you have ever seen
+                        and also it also responsible to any screen.
+                    </p>
+                    <a href=""><img src="./Assests/externalLink.svg"></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="../Meesho/Assets/banner1.png">
+                <div class="layer">
+                    <h3>App1</h3>
+                    <p>This is the wonderful and usefull app you have ever seen
+                        and also it also responsible to any screen.
+                    </p>
+                    <a href=""><img src="./Assests/externalLink.svg"></a>
+                </div>
+            </div>
+        </div>
+        <a href="" class="btn-1">See More..</a>
+    </div>
+</section>
+
+<!-- ----contact------ -->
+
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class='bx bxs-envelope'></i> Pradeep205.com@gmail.com</p>
+                <p><i class='bx bxs-phone'></i> 9344172966</p>
+                <div class="social-icons">
+                    <a href=""><i class='bx bxl-github'></i></a>
+                    <a href=""><i class='bx bxl-linkedin'></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+
+                <form action="">
+                    <input type="text" name="Name" placeholder="Your Name..." required>
+                    <input type="email" name="email" placeholder="Your Email..." required>
+                    <textarea name="Message"row="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn-1">Submit</button>
+                </form>
+                <h1></h1>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="copyright">
+    <p>Copyright © Pradeep<i class='bx bxs-heart'></i></p>
+</footer>
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+</body>
+</html>
