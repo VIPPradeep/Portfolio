@@ -10,9 +10,7 @@
 html {
   scroll-behavior: smooth;
 }
-body{
-  background: ;
-}
+
 
 a{
     color: white;
@@ -395,7 +393,7 @@ margin-bottom: 15px;
 }
 .work-list{
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+  grid-template-columns: repeat(3,minmax(250px, 1fr));
   gap: 40px;
   margin-top: 50px;
  
@@ -416,8 +414,9 @@ margin-bottom: 15px;
 .layer{
   width: 100%;
   height: 0;
-  color: white;
-  background: linear-gradient(rgba(141, 110, 110, 0.6), #41891a);
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  background: linear-gradient(rgba(141, 110, 110, 0.6), #52eb00);
   border-radius: 10px;
   position: absolute;
   left: 0;
