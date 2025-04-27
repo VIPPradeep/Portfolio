@@ -48,10 +48,8 @@
         <div class="btn-sci">
             <a href="./Assests/resume.pdf" download class="btn">Download CV</a>
             <div class="sci" >
-
                 <a href="https://github.com/VIPPradeep"><i class='bx bxl-github'></i></a>
                 <a href="www.linkedin.com/in/mr-v-pradeep"><i class='bx bxl-linkedin'></i></a>
-
             </div>
 
         </div>
@@ -172,7 +170,7 @@
                     <a href="https://vippradeep.github.io/To-Do-List/"><img src="./Assests/externalLink.svg"></a>
                 </div>
             </div>
-            <div class="work">
+            <div class="work hide">
                 <img src="./Assests/projects/clock.png" width="100%" height="100%">
                 <div class="layer">
                     <h3>Analog Clock</h3>
@@ -181,7 +179,7 @@
                     <a href="https://vippradeep.github.io/Clock/"><img src="./Assests/externalLink.svg"></a>
                 </div>
             </div>
-            <div class="work">
+            <div class="work hide">
                 <img src="./Assests/projects/calculator.png" width="100%" height="100%">
                 <div class="layer">
                     <h3>Calculator</h3>
@@ -190,7 +188,7 @@
                     <a href="https://vippradeep.github.io/Calculator/"><img src="./Assests/externalLink.svg"></a>
                 </div>
             </div>
-            <div class="work">
+            <div class="work hide">
                 <img src="./Assests/projects/testimonial.png" width="100%" height="100%">
                 <div class="layer">
                     <h3>Testimonial Carousel</h3>
@@ -200,7 +198,7 @@
                 </div>
             </div>
         </div>
-        <button class="btn-1">See More..</button>
+        <button class="btn-1" onclick="displayprojects()">See More..</button>
     </div>
 </section>
 
@@ -252,6 +250,18 @@
         event.currentTarget.classList.add("active-link");
         document.getElementById(tabname).classList.add("active-tab")
     }
+
+    function displayprojects() {
+    let hiddenProjects = document.querySelectorAll(".work.hide");
+
+    hiddenProjects.forEach((project) => {
+        project.classList.remove("hide");
+    });
+
+    document.querySelector(".btn-1").style.display = "none";
+}
+
+   
 </script>
 </body>
 </html>

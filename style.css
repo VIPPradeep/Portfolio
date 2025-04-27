@@ -567,3 +567,7 @@ form .btn-1:hover{
 .copyright i{
   color: #7cf03d;
 }
+
+.work-list .hide{
+  display: none;
+}
