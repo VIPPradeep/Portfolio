@@ -571,3 +571,123 @@ form .btn-1:hover{
 .work-list .hide{
   display: none;
 }
+
+
+/*  */
+/*  */
+@media screen and (max-width: 1024px) {
+  .home {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 5%;
+  }
+
+  .home-img .img-box {
+    width: 250px;
+    height: 250px;
+    margin-top: 30px;
+  }
+
+  .row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-col-1, .about-col-2 {
+    flex-basis: 100%;
+    left: 0;
+    margin-bottom: 20px;
+  }
+
+  #contact {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .services-list div {
+    width: 100%;
+  }
+}
+
+/* Responsive Design for Mobile */
+@media screen and (max-width: 768px) {
+  .navbar ul {
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+  }
+  .navbar{
+    height: 4vh;
+  }
+  .navbar .logo{
+    font-size: medium;
+    margin-left: -20px;
+  }
+  .home-info .btn-sci .sci {
+    margin-left: 20px;
+}
+
+  .navbar ul li {
+    margin-left: 0;
+  }
+  .navbar ul li a{
+    font-size: small;
+  }
+  .home{
+    /* flex-direction: row; */
+  }
+  .btn-sci{
+    position: relative;
+    top: 350px;
+  }
+  .home-img{
+    position: relative;
+    top: -80px;
+  }
+  .home-info{
+    margin-top: 50px;
+  }
+
+  .home-info h1 {
+    font-size: 22px;
+  }
+
+  .home-info h2 {
+    font-size: 16px;
+  }
+  .home-info p {
+    font-size: 12px;
+    display: none;
+  }
+
+  .sub-title {
+    font-size: 36px;
+  }
+
+  .services-list {
+    grid-template-columns: 1fr;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .work-list {
+    grid-template-columns: 1fr;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  form .btn-1 {
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .contact-left, .contact-right {
+    flex-basis: 100%;
+  }
+
+  .contact-right form input,
+  .contact-right form textarea {
+    font-size: 16px;
+  }
+}
